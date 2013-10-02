@@ -1,0 +1,19 @@
+<html>
+<body>
+<script type="text/javascript" src="./check.js"></script>
+<script type="text/javascript" src="./foo.js"></script>
+
+<div id="result"></div>
+Objective: Execute <strong>giveMeTheFlag()</strong>
+<p>Browser requirement: Google Chrome</p>
+<form name="xssForm" onSubmit="return checkSum();">
+	<p>
+		100 + 10 = 
+		<input type="text" name="code" size="100%" value="">
+
+		<input type="submit">
+	</p>
+</form>
+
+</body>
+</html>
